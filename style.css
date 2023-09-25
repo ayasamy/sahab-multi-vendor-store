@@ -1,0 +1,161 @@
+.button{
+    box-sizing: border-box;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(73, 185, 117);
+    height: 32px;
+    padding: 0px 16px;
+    padding-bottom: 4px;
+    border-radius: 4px;
+    position: relative;
+    top: 4px;
+    left: 10px;
+
+}
+.line {
+    height:5px;
+    background: linear-gradient(to right, rgba(255,208,7) 0%, rgba(255,208,7) 12.5%,rgba(192,156,221,1) 62.5%, rgba(192,156,221,1) 75%);
+    
+}
+
+div.navbar-collapse{
+    flex-grow: 0 !important;
+}
+.text{
+    font-size: 15px;
+    color: rgb(105, 103, 102);
+}
+.serch-section{
+    background-color: rgb(65, 130, 195);
+    padding-top: 7px;
+    padding-bottom: 1px;
+}
+.img{
+    box-shadow: 0 4px 3px -2px grey;
+    
+}
+
+.category .items{
+ 
+    white-space: nowrap;
+    transition: all 0.2s;
+    transform: scale(0.98);
+    will-change: transform;
+    overflow-x: scroll;
+    overflow-y: hidden;}
+    
+    .category .items .item {
+        margin-left: 20px;
+        white-space: nowrap;
+        font-size: 12px;
+    }
+
+    .register{
+        width: 40%;
+    /* margin: auto; */
+    padding: 15px;
+    background: #fff;
+    border-radius: 9px;
+    box-shadow: 0 11px 15px -7px rgb(0 0 0 / 20%), 0 9px 46px 8px rgb(0 0 0 / 12%), 0 24px 38px 3px rgb(0 0 0 / 14%);
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.card-product{
+background-color: white;
+padding: 10px;
+margin-bottom: 10px;
+box-shadow: rgb(0 0 0 / 25%) 0px 1px 0px 0px;
+border-radius: 2px;
+position: relative;
+}
+.card{
+    
+}
+    .card h2{
+        margin-bottom: 0.75rem;
+        font-weight: bold;
+        color: rgb(54, 52, 51);
+    }
+    .card p{
+        margin-bottom: 0.75rem;
+        font-weight: bold;
+        color: rgb(54, 52, 51);
+        font-family: 'stc';
+        color: rgb(105, 103, 102);
+    
+    }
+    .left {
+        float:left;
+    
+    }
+    .dropdown-menu{
+        width:900px;
+        right : 0 !important;
+    }
+    
+ .card-block{
+    width: 340px;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    border-radius: 6px;
+    box-shadow: rgb(0 0 0 / 10%) 0px 2px 4px 0px;
+    padding: 25px;
+    position: absolute;
+    margin-top: 10px;
+    top:0px;
+    left:100px;
+    }
+    .main_home{
+        background-image:url('slid.jpg');
+         height: 300px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        margin-top: 15px;
+        position: relative; 
+    } 
+    .description1{
+        padding: 32px 24px;
+        border-radius: 2px 2px 4px 4px;
+        margin-bottom: 16px;
+        border-width: 0px 1px 1px;
+        border-color: rgb(205, 204, 204);
+        border-style: solid;
+        margin-top: 20px;
+        font-family: 'stc';
+        color: rgb(105, 103, 102);
+        box-shadow: rgb(216 176 142) 0px -4px;
+    }
+    .attributes{
+        box-shadow: rgb(255 208 7) 0px -4px;
+        padding: 32px 24px;
+        border-radius: 2px 2px 4px 4px;
+        margin-bottom: 16px;
+        border-width: 0px 1px 1px;
+        border-color: rgb(205, 204, 204);
+        border-style: solid;
+        margin-top: 20px;
+        font-family: 'stc';
+        color: rgb(105, 103, 102);
+    }
+    .additional-description{
+    
+        box-shadow: rgb(192 156 221) 0px -4px;
+        padding: 32px 24px;
+        border-radius: 2px 2px 4px 4px;
+        margin-bottom: 16px;
+        border-width: 0px 1px 1px;
+        border-color: rgb(205, 204, 204);
+        border-style: solid;
+        margin-top: 20px;
+        font-family: 'stc';
+        color: rgb(105, 103, 102);
+    }
+    .background{
+    background-color: #f9f7f6;}
+ 
+    
