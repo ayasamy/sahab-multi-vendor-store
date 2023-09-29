@@ -1,0 +1,95 @@
+
+/* start navbar  */
+.line {
+    height: 5px;
+    background: linear-gradient(to right, rgba(255, 208, 7) 0%, rgba(255, 208, 7) 12.5%, rgba(192, 156, 221, 1) 62.5%, rgba(192, 156, 221, 1) 75%);
+}
+
+div.navbar-collapse {
+    flex-grow: 0 !important;
+}
+
+nav .text {
+    font-size: 15px;
+    color: rgb(105, 103, 102);
+    white-space: nowrap;
+}
+/* end navbar  */
+
+/* start home  */
+
+.main_home {
+    background-image: url('https://accord.ps/Modules/Website/Resources/assets/images/slider-2.jpg');
+    height: 340px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.card-block {
+    box-shadow: rgb(0 0 0 / 10%) 0px 2px 4px 0px;
+    top: 12px;
+}
+.dropdown-menu {
+    width: 900px;
+    right: 0 !important;
+}
+
+.category .items {
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.category .items .item {
+    white-space: nowrap;
+    font-size: 12px;
+}
+
+/* end home  */
+
+/* start product  */
+
+.description {
+    box-shadow: rgb(216 176 142) 0px -4px;
+  }
+  .attributes {
+      box-shadow: rgb(255 208 7) 0px -4px;
+  }
+  .additional-description {
+      box-shadow: rgb(192 156 221) 0px -4px;
+  }
+
+/* end product  */
+
+/* start search  */
+
+.category .items {
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.category .items .item {
+    white-space: nowrap;
+    font-size: 12px;
+}
+
+/* end search  */
+
+
+/* هدول للكل */
+.items::-webkit-scrollbar,.categories-block .items::-webkit-scrollbar {
+    width: 8px;
+    background-color: white;
+    height: 10px;
+}
+.items::-webkit-scrollbar-thumb,.categories-block .items::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.44, #4182c3), color-stop(0.72, #4182c3), color-stop(0.86, #4182c3));
+}
+.items::-webkit-scrollbar-track, .categories .categories-block .items::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: white;
+    border-radius: 8px;
+}
+@media (min-width: 1400px){
+    .container{
+        max-width: 1140px !important;
+    }
+}
